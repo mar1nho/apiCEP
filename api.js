@@ -16,7 +16,13 @@ async function getAddressByPostalCode(postalCode) {
         let user= document.getElementById('usuario').value
         if (!cepRegex.test(user.trim().replace(/-/g, ''))){
             alert("CEP em Formato Inválido, tente XXXXXXXX")
-            return;
+            logradouro.value =  ''
+            bairro.value =  ''
+            cep.value =  ''
+            cidade.value = ''
+            estado.value =  ''
+            user.innerHTML = ''
+            document.getElementById('usuario').value =  ''
         } else {
             getAddressByPostalCode(user).then(data => {
                 logradouro.value =  data.logradouro
@@ -34,3 +40,4 @@ async function data(postalCode) {
     return data;
 }
 let dados = data("04163100").then(dados => console.log(dados))
+
