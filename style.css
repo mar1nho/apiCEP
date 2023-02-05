@@ -1,0 +1,54 @@
+
+main{
+    border: 2px inset #D7BDE2;
+    background-color: #76448A;
+    border-radius: 10px;
+    width: 100%;
+    height: 5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    text-align: center;
+    box-shadow: inset 1px 1px 5px 3px black;    
+    font-family: 'Griffy', cursive;
+}
+body{
+    background-image: url(mapa.jpg);
+    background-size: cover;
+    font-family: 'Aboreto', cursive;
+}
+.main{
+    border: 1px solid black;
+    margin: 0% auto;
+    width: 40rem;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px 3px black;
+    background-color: #884EA0;
+}
+.container{
+    border: 1px solid black;
+    margin: 0% auto;
+    width: 40rem;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    background-color: #D7BDE2;
+    box-shadow: 1px 1px 5px 3px black;
+    margin-top: 3px
+}
+input{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #8E44AD;
+    color: whitesmoke;
+    box-shadow: inset 1px 1px 10px 1px black;
+    font-weight: bold;
+    font-family: 'Aboreto', cursive;
+}
+#usuario{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+}
